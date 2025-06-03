@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Temp
+*.log
+*.db
+*.pkl
+.ruff_cache
+.vscode
+.DS_Store
+
+# Conf
+setup.cfg

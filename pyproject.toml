@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "splitzipper"
+version = "1.0.0"
+description = "Archive folders into 16MiB Base64 chunks and restore them."
+readme = "README.md"
+authors = [{name="Vlad Shulcz", email="vshulcz@gmail.com"}]
+requires-python = ">=3.10"
+
+[project.scripts]
+splitzipper = "splitzipper.gui:main"
